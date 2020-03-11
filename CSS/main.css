@@ -4,8 +4,14 @@
     margin: 0;
     font-family: Arial, sans-serif;
 }
-#white-block{position: absolute; background-color: #ffffff; width: 500px; height: 250px; top: 50px; right: 50px;}
-#black-block{background-color: #445162; width: 430px; height: 250px; position: absolute; top: 420px; right: 50px;}
+body{
+    background-color: #282828;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#white-block{position: absolute; background-color: #ffffff; width: 500px; height: 250px; top: 50px;  margin-left: 680px;}
+#black-block{background-color: #445162; width: 430px; height: 250px; position: absolute; top: 420px; margin-left: 750px;}
 
 li{list-style-type: none;}
 .wrapper{width: auto;padding: 0px 50px;}
