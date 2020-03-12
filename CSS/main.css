@@ -257,13 +257,16 @@ li{list-style-type: none;}
     font-size: 30px;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .contacts-wrap{
-
+    
 }
 .forma{
     width: 500px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 255px;
 }
 .forma input{
     outline: none;
@@ -299,13 +302,25 @@ li{list-style-type: none;}
     background-color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 auto;
+    margin-left: 40%;
 }
 .forma button:hover{
     color: #ffffff;
     background-color: #445161;
 }
 .contacts-wrap .contact-info{
-    
+    display: inline-block;
+    position: absolute;
+}
+.contact-info img{
+    position: absolute;
+    left: -20px;
+    margin-top: -3px;
+}
+.contact-info li{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 /* end contacts */
