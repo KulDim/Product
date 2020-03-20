@@ -415,9 +415,130 @@ li{list-style-type: none;}
     padding-bottom: 500px;
 }
 /* end dignity */
+/* scrinshots */
+.scrinshots-content h2{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.scrinshots-block{
+   display: inline;
+}
+.square{
+    width: 280px;
+    height: 155px;
+    background-color: #445161;
+    position: absolute;
+}
+.scrinshots-block h3{
+    font-size: 20px;
+    color: #445161;
+    margin-bottom: 20px;
+}
+.scrinshots-block span{
+    font-size: 15px;
+    color: #333333;
+}
+.wrap{
+    margin-top: 170px;
+    margin-left: 0px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+/* end scrinshots */
+/* reviews */
+.reviews-content{
+    padding-bottom: 30px;
+}
+.reviews-content h2{
+    font-size: 25px;
+    color: #445161;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.circle{
+    left: -50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #445161;
+    position: absolute;
+}
+.block-content{
+    margin-left: 0px;
+    width: 283px;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+/* end reviews */
+/* buy */
+.buy-content{
+    background-color: #ffffff;
+}
+.buy-content h2{
+    color: #445161;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.buy-blocks{
+    width: 292px;
+    border: 3px solid #445162;
+    border-radius: 4px;
+    background-color: #445162;
+    display: inline-block;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+/* end buy */
+/* contacts */
+.contacts-content{
+    background-color: #445162;
+    height: 750px;
+}
+.contacts-content h2{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+.forma{
+    width: 300px;
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: -20px;
+}
+.forma button{
+    outline: none;
+    border: 1px solid #ffffff;
+    padding: 8px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #445162;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+    margin-left: 30%;
+}
+/* end contacts */
+/* footer */
 
-
-
-
+.footer-content span{
+    display: inline-block;
+    font-size: 10px;
+    color: #445162;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+}
+/* end footer */
 }
 /* end 375px */
